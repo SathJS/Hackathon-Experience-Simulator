@@ -1,0 +1,152 @@
+.editorHomePageWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100vh;
+}
+
+.editorFormWrapper {
+    background: #282a36;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 90%;
+}
+
+.editorFooter {
+    position: fixed;
+    bottom: 0;
+}
+
+.editorFooter a {
+    color: #4aee88;
+}
+
+.editorInputGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.editorMainLabel {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.editorHomePageLogo {
+    height: 80px;
+    margin-bottom: 30px;
+}
+
+.editorInputBox {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin-bottom: 14px;
+    background: #eee;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.editorBtn {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.editorJoinBtn,
+.editorLeaveBtn {
+    background: #4aed88;
+    width: 100px;
+    margin-left: auto;
+}
+
+.editorJoinBtn:hover,
+.editorLeaveBtn:hover {
+    background: #2b824c;
+}
+
+.editorCreateInfo {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.editorCreateNewBtn {
+    color: #4aed88;
+    text-decoration: none;
+    border-bottom: 1px solid #4aed88;
+    transition: all 0.3s ease-in-out;
+}
+
+.editorCreateNewBtn:hover,
+.editorFooter a:hover {
+    color: #368654;
+    border-color: #368654;
+}
+
+.editorMainWrap {
+    display: grid;
+    grid-template-columns: 230px 1fr;
+}
+
+.editorWrap {
+    color: #fff;
+    background: #1c1e29;
+}
+
+.editorAside {
+    background: #1c1e29;
+    padding: 16px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.editorAsideInner {
+    flex: 1;
+}
+
+.editorClientsList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.editorClient {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.editorUserName {
+    margin-top: 10px;
+}
+
+.editorLogo {
+    border-bottom: 1px solid #424242;
+    padding-bottom: 10px;
+}
+
+.editorLogoImage {
+    width: 200px;
+    height: 50px;
+}
+
+.editorLeaveBtn {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.CodeMirror {
+    min-height: calc(100vh - 20px);
+    font-size: 20px;
+    line-height: 1.6;
+    padding-top: 20px;
+}
